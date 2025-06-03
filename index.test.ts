@@ -1,3 +1,4 @@
+// TODO: Separate out the enums as own file
 enum Directions {
     North = 'N',
     East = 'E',
@@ -11,6 +12,7 @@ enum Commands {
     Right = 'R',
 }
 
+// TODO: separate Mars rover class as own file
 class MarsRover {
     xCoord: number;
     yCoord: number;
